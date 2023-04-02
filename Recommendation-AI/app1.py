@@ -7,7 +7,7 @@ from flask import Flask, request, jsonify
 # langchain_client = langchain.Client()
 
 # Set up the OpenAI API key
-openai.api_key = ".....API KEY IS REMOVED FOR SECURITY ISSUES....."
+openai.api_key = "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"
 
 # Load the data about yourself from an external text file
 with open("data.txt", "r") as f:
